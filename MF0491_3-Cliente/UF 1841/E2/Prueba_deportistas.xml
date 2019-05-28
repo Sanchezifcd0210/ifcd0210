@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/IFCD0210/MF0491_3-Cliente/UF%201841/E2/Deportistas.xsd">
+	<deportista>
+		<deporte>Atletismo </deporte>
+		<nombre>Jesse Owens</nombre>
+		<logro>4 medallas de oro olímpicas</logro>
+	</deportista>
+	<deportista>
+		<deporte>Natación</deporte>
+		<nombre>Mark Spitz</nombre>
+		<logro>7 medallas de oro olímpicas</logro>
+	</deportista>
+	<deportista>
+		<deporte>Futbol</deporte>
+		<nombre>Johan Cruyff</nombre>
+		<logro>1 Copa de España, 4 Ligas de España, 3 Supercopas de España, 1 Recopa de Europa, 1 Copa de Europa y 1 Supercopa de Europa con Barcelona. </logro>
+	</deportista>
+	<deportista>
+		<deporte>Baloncesto</deporte>
+		<nombre>Michael Jordan</nombre>
+		<logro>6 anillos de campeón de la NBA</logro>
+	</deportista>
+	<deportista>
+		<deporte>Tenis</deporte>
+		<nombre>Rafael Nadal</nombre>
+		<logro>17 Grand Slam, 34 Titulos de master 1000, 20 ATP 500, 4 copa Davis y 1 medalla de oro en los juegos olímpicos</logro>
+	</deportista>
+	<deportista>
+		<deporte>Golf</deporte>
+		<nombre>Tiger Woods</nombre>
+		<logro>5 masters de augusta, 3 abiertos de EEUU, 3 abiertos britanicos, 3 campeonatos de la PGA</logro>
+	</deportista>
+</deportistas>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- W3C Schema generado con XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="deporte">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Atletismo "/>
+				<xs:enumeration value="Baloncesto"/>
+				<xs:enumeration value="Futbol"/>
+				<xs:enumeration value="Golf"/>
+				<xs:enumeration value="Natación"/>
+				<xs:enumeration value="Tenis"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="deportista">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="deporte"/>
+				<xs:element ref="nombre"/>
+				<xs:element ref="logro"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="deportistas">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="deportista" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="logro" type="xs:string"/>
+	<xs:element name="nombre">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Jesse Owens"/>
+				<xs:enumeration value="Johan Cruyff"/>
+				<xs:enumeration value="Mark Spitz"/>
+				<xs:enumeration value="Michael Jordan"/>
+				<xs:enumeration value="Rafael Nadal"/>
+				<xs:enumeration value="Tiger Woods"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>
