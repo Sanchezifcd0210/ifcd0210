@@ -1,0 +1,19 @@
+*{/*prueba de selector universal*/
+	font-family: "Comic Sans MS";
+	background-color: grey;
+}
+th{/*prueba de selector de tipo elemento*/
+	font-size: 2em;
+	background-color: beige;
+}
+h1{/*prueba de selctor de tipo elemento*/
+	font-size: 75px;
+	text-shadow:5px 5px 5px #000000;
+}
+tr td{/*Prueba selector descendente*/
+	transform: rotate(180deg);
+	text-align: center;
+}
+.prueba{
+	font-weight: bold;
+}

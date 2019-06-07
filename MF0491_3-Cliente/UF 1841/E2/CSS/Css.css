@@ -1,0 +1,19 @@
+*{
+	padding-left: 0em;
+	background-image: url(../Imagenes/galaxia.jpg);
+}
+
+img{
+	width: 120px; height: 100px;
+}
+h1{
+	text-align: center;
+	text-shadow:10px 4px 10px #241724;
+}
+body{
+	text-align: center;
+}
+table{
+	margin: auto;
+	box-shadow:10px 10px 5px #000000;
+}
