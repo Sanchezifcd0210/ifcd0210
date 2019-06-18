@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<deportistas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/IFCD0210/MF0491_3-Cliente/UF%201841/E2/Deportistas.xsd">
+<!DOCTYPE deportistas SYSTEM "C:\IFCD0210\MF0491_3-Cliente\UF 1841\E2\XML\PruebaDTD.dtd">
+<deportistas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/IFCD0210/MF0491_3-Cliente/UF%201841/E2/XML/Deportistas.xsd">
 	<deportista>
 		<deporte>Atletismo </deporte>
 		<nombre>Jesse Owens</nombre>
