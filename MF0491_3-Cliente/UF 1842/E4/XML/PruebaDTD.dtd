@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD generado con XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) -->
+<!ELEMENT logro (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT deporte (#PCDATA)>
+<!ELEMENT deportista (deporte, nombre, logro)>
+<!ELEMENT deportistas (deportista+)>
+<!ATTLIST deportistas
+	xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+	xmlns:xsi CDATA #FIXED "http://www.w3.org/2001/XMLSchema-instance"
+>
