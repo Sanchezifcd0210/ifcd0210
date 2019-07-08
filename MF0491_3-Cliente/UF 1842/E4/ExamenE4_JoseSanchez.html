@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="./CSS/examen_css.css">
+	<meta charset="UTF-8">
+	<title>Rio2016</title>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<img class="logo" src="Imagenes/Comite.png" alt="">
+			<h1>Olímpicos españoles de Rio 2016<img class="pelota" src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Olympics.gif" alt=""></h1>
+			
+			<ul class="menu">
+				<li><a href="https://www.olympic.org/" target="blank"> Olympics.org</a></li>
+			    <li><a href="https://es.wikipedia.org/wiki/Comit%C3%A9_Ol%C3%ADmpico_Internacional" target="blank"> Comité Olimpico Internacional</a></li>
+			    <li><a href="https://es.wikipedia.org/wiki/Anexo:Medallero_de_los_Juegos_Ol%C3%ADmpicos_de_R%C3%ADo_de_Janeiro_2016" target="blank">Medallero Rio 2016</a></li>
+
+			    
+			</ul>
+		</div>
+		<img class="banner" src="Imagenes/banner1.png" alt="">
+		<div class="row">
+			<div class="col">
+				<h2>Mireia Belmonte</h2>
+				<img class="deportista" src="Imagenes/mireia.jpg" alt="">
+				<p> Mireia Belmonte ganadora de la medalla de oro en 200m mariposa y la bronce en 400m estilos.</p>
+			</div>
+			<div class="col">
+				<h2>Saúl Craviotto</h2>
+				<img class="deportista" src="Imagenes/cravioto.jpg" alt="">
+				<p>Saúl Craviotto ganador de la medalla de oro en K2 200m y de la medalla de bronce en K1 200m.</p>
+			</div>
+			<div class="col">
+				<h2>Lydia Valentín</h2>
+				<img class="deportista" src="Imagenes/lydia.jpg" alt="">
+				<p>Lydia Valentín ganadora de la medalla de bronce en alterofilia en la categoria de 75kg.</p>
+			</div>
+			<div class="col">
+				<h2>Carolina Marín</h2>
+				<img class="deportista" src="Imagenes/marin.jpg" alt="">
+				<p>Ganadora de la medalla de oro en Badminton.</p>
+			</div>
+			<div class="col">
+				<h2>Ruth Beitia</h2>
+				<img class="deportista" src="Imagenes/beitia.jpg" alt="">
+				<p>Ganadora de la medalla de oro en salto de altura.</p>
+			</div>
+			<div class="col">
+				<h2>Maialen Chourraut</h2>
+				<img class="deportista" src="Imagenes/maialen.jpg" alt="">
+				<p>Ganadora de la medalla de oro en K1 individual.</p>
+			</div>
+			<div class="col">
+				<h2>Marcus Walz</h2>
+				<img class="deportista" src="Imagenes/walz.jpg" alt="">
+				<p>Ganador de la medalla de oro en piragüismo en la categoria K1 1000m.</p>
+			</div>
+			<div class="col">
+				<h2>Rafa Nadal y Marc López</h2>
+				<img class="deportista" src="Imagenes/rafa.jpg" alt="">
+				<p>Ganadores de la medalla de oro en Tenis en la categoria de dobles-</p>
+			</div>
+		</div>
+		<div class="footer">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/tfX9IOvzcvU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</tbody>
+		</div>
+
+	</div>
+
+	<div id="win"></div>
+ <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+
+    <script>
+
+        const Webamp = window.Webamp;
+
+        new Webamp({
+
+           availableSkins:[
+
+            {url: "./skins/Green-Dimension-V2.wsz", name:"Green Dimension V2" },
+
+            {url: "./skins/AmigaPPC-dark.wsz", name:"AmigaPPC dark" },
+
+            {url: "./skins/base-2.91.wsz", name:"base 2.91" },
+
+            {url: "./skins/base-2.91-png.wsz", name:"base 2.91 png" },
+
+            {url: "./skins/Internet-Archive.wsz", name:"Internet Archive" },
+
+            {url: "./skins/MacOSXAqua1-5.wsz", name:"MacOSXAqua1-5" },
+
+            {url: "./skins/Skinner_Atlas.wsz", name:"Skinner Atlas" },
+
+            {url: "./skins/Sonic_Attitude.wsz", name:"Sonic Attitude" },
+
+            {url: "./skins/TopazAmp1-2.wsz", name:"TopazAmp 1.2" },
+
+            {url: "./skins/Vizor1-01.wsz", name:"Vizor 1.01" },
+
+            {url: "./skins/XMMS-Turquoise.wsz", name:"XMMS Turquoise" },
+
+            {url: "./skins/ZaxonRemake1-0.wsz", name:"ZaxonRemake 1.0" },
+
+            ],
+
+
+
+           initialTracks:[
+
+          
+
+           {url: "./musica/Carros de Fuego.mp3"},
+
+           {url: "./musica/We Are The Champions.mp3"},
+
+           ],
+
+
+
+            initialSkin: 
+
+            {url: "./skins/MacOSXAqua1-5.wsz"}
+
+             
+
+          
+
+        }).renderWhenReady(document.getElementById('win'));
+
+     
+
+    </script>
+</body>
+</html>
