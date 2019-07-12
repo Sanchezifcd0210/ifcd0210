@@ -9,6 +9,7 @@ text-align: center;
 padding: 6%;
  }
 
+
 body{
 	background-color: #DFD0D0;
 	font-family: arial;
@@ -58,6 +59,7 @@ img.pelota {
 
 iframe{
 	border-radius: 10px;
+	padding: 20%;
 	
 }
 
@@ -71,3 +73,16 @@ img.logo{
 	width: 95px;
 	height: 155px;
 }
+
+/* Estilos para elementos li con clase 'lista-acc' */
+li.lista-acc {
+	display: inline-block;
+	margin: 5px 25px;
+	padding: 7.5px 15px;
+	font: normal 1em calibri, helvetica, sans-serif;
+	border-radius: 15px;
+	background-color: #222;
+	box-shadow: 2.5px 2.5px 2.5px rgba(25, 50, 75, 0.5);
+	color: #fff;
+	}
+
