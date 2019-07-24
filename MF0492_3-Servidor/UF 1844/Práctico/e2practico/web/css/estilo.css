@@ -1,0 +1,11 @@
+body{
+    background-image: url(../imagen/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.margen{
+    margin-top: 30%;
+}
