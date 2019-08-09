@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -9,6 +9,17 @@
 </head>
 
 <body>
+
+<?php  	
+	
+	include "conexion.php";
+	
+	$registros=$base->query("SELECT * FROM DATOS_USUARIOS")->fetchAll(PDO::FETCH_OBJ);
+
+ ?> 
+
+	
+
 
 
 <h1>CRUD<span class="subtitulo">Create Read Update Delete</span></h1>
@@ -24,7 +35,13 @@
       <td class="sin">&nbsp;</td>
     </tr> 
    
-		
+	
+
+
+    <?php
+
+    foreach ($registros as $persona):?>
+
    	<tr>
       <td> </td>
       <td></td>
@@ -35,6 +52,18 @@
       <td class='bot'><input type='button' name='up' id='up' value='Actualizar'></a></td>
     </tr>       
 	<tr>
+
+
+
+	<?php
+	endforeach;
+
+	?>
+
+
+
+
+
 	<td></td>
       <td><input type='text' name='Nom' size='10' class='centrado'></td>
       <td><input type='text' name='Ape' size='10' class='centrado'></td>
